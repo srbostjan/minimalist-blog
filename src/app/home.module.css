@@ -1,0 +1,123 @@
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mailContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.mailButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1A1A1A;
+  border: 1px solid #303030;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.mailButton:hover {
+  background-color: #404040;
+}
+
+.mailText {
+  font-size: 1.4rem;
+  color: #AAA;
+  margin-left: 1rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.mailText:hover {
+  color: #FFF;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navItem {
+  font-size: 1.4rem;
+  color: #AAA;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: #FFF;
+}
+
+.navItemSeparator {
+  font-size: 1.4rem;
+  color: #AAA;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.presentation {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #AAA;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 3.6rem;
+  font-weight: 400;
+  text-align: center;
+  background-image:  url('../../src/assets/home/gradient.png');
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+}
+
+.portfolioButton {
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: 1px solid #303030;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolioButton:hover {
+  background-color: #353535;
+}
+
+.portfolioText {
+  font-size: 1.6rem;
+  color: #AAA;
+}
